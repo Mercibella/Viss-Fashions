@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    widows: 100%;
+    background: #fff;
+    align-items: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-size: 1.3em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navbar > div:hover{
+    background: orangered;
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+
+#logo{
+    padding-left: 30px;
+    padding-right: 80px;
+    font-size: 1.8em;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: #000;
+    background: #fff;
+    margin-left: 50px;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    margin-right: 35px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover{
+    background: orangered;
+}
+
+.button:hover{
+    background: #f58f09;
+    color: #000;
+}
+
+.float{
+    width: 600px;
+    height: 700px;
+    float: right;
+    margin-right: 150px;
+}
+
+.main{
+    padding: 250px;
+    padding-left: 100px;
+}
+
+h3{
+    color: #0ed4e2;
+    font-size: 1em;
+}
+
+p{
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: flex-start;
+    margin-bottom: 25px;
+}
+
+.hero{
+    width: 1300px;
+    height: 600px;
+}
+
+
+ 
+
+
+
+@media screen and (max-width:600px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: flex-end;
+        height: 120px;
+        width: 100%;
+        background-color:  rgb(218, 88, 41);
+        align-items: center;
+        text-transform: capitalize;
+        margin-left: 20px;
+        font-size: 1.2em;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    .navbar > div:hover{
+        background: #f58f09;
+        width: auto;
+        height: 40px;
+        border-radius: 5px;
+        transition: 1s;
+    }
+    
+    
+    #logo{
+        display: flex;
+        justify-content: flex-start;
+        align-self: flex-start;
+        margin-top: 30px;
+        position: relative;
+        top: 50px;
+    padding-left: 30px;
+    padding-right: 80px;
+    font-size: 1.1em;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+ .right{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 35px;
+}
+
+.btn{
+    position: relative;
+    top: -60px;
+    right: 60px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+    background: orangered;
+    display: inline-block;
+    border: none;
+    font-size: 0.9em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #f58f09;
+}
+
+#up{
+    position: relative;
+    top: -80px;
+    left: 70px;
+}
+
+.button {
+    width: 80px;
+    height: 50px;
+    position: relative;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #000;
+    background-color: orangered;
+    border: none;
+    margin-right: 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.main{
+    position: relative;
+    align-items: center;
+    top: -800px;
+    left: -40px;
+}
+
+
+.float{
+    width: 600px;
+    height: 800px;
+    float: unset;
+}
+
+h3{
+    color: #0ed4e2;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p{
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hero{
+    width: 1300px;
+    height: 600px;
+}
+
+
+}
+
+
+
+
