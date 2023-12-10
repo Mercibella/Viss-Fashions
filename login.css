@@ -192,7 +192,6 @@ fa-square-twitter{
 
 @media screen and (max-width:640px) {
     .container{
-        max-width: 640px;
         min-height: 100vh;
         width: 100%;
         display: flex;
