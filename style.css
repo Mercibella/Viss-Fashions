@@ -114,7 +114,7 @@ p{
         align-items: center;
         text-transform: capitalize;
         margin: 0;
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 400;
         cursor: pointer;
     }
@@ -137,7 +137,7 @@ p{
         top: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
     pointer-events: none;
 }
@@ -183,10 +183,10 @@ p{
 }
 
 .button {
-    width: 80px;
+    width: 60px;
     height: 50px;
     position: relative;
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: 500;
     border-radius: 10px;
     color: #000;
@@ -198,9 +198,10 @@ p{
 
 .main{
     position: relative;
-    text-wrap: nowrap;
     top: -800px;
     left: -40px;
+    text-wrap: nowrap;
+    text-align: left;
 }
 
 
