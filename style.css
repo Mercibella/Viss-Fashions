@@ -95,11 +95,8 @@ p{
     flex-direction: flex-start;
     margin-bottom: 25px;
 }
-/*
-.hero{
-    width: 1300px;
-    height: 600px;
-}*/
+
+
 
 
  
@@ -138,8 +135,8 @@ p{
         margin-top: 30px;
         position: relative;
         top: 50px;
-    padding-left: 30px;
-    padding-right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 1.1em;
     font-weight: 500;
     pointer-events: none;
@@ -201,7 +198,7 @@ p{
 
 .main{
     position: relative;
-    align-items: center;
+    text-wrap: nowrap;
     top: -800px;
     left: -40px;
 }
